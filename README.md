@@ -28,7 +28,7 @@
 
   - Manually click the button ~500 times (unironically might be the fastest way)
   
-  - Keep making requests with https://www.ratemyprofessors.com/school?sid=[some number] and keep incrementing [some number] from 1 or something. Returns 8 professors ranked by teacher id (assigned upon professor profile creation), and then request more info about that professor with https://www.ratemyprofessors.com/professor?tid=[teacher id]
+  - Keep making requests with https://www.ratemyprofessors.com/school?sid=[some_number] and keep incrementing [some_number] from 1 or something. Returns 8 professors ranked by teacher id (assigned upon professor profile creation), and then request more info about that professor with https://www.ratemyprofessors.com/professor?tid=[teacher_id]
   
   - ?
 
@@ -63,3 +63,9 @@
 | isForOnlineClass    | bool          |                                                      |
 | ratingTags          | list          | Given in JSON as "tag1--tag2--tag3", convert to list |
 | wouldTakeAgain      | bool          | Convert from int {0, 1}                              |
+
+## Related Work
+- For quick overview: https://medium.com/@vasista/sentiment-analysis-using-svm-338d418e3ff1
+- [Sentiment analysis using support vector machines with diverse information
+sources](https://aclanthology.org/W04-3253.pdf)
+- To justify which type of SVM? [Multi-category news classification using Support Vector Machine based classifiers](https://link.springer.com/article/10.1007/s42452-020-2266-6)
