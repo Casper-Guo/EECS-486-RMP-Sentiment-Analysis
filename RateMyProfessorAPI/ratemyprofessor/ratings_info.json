@@ -1,0 +1,30 @@
+{
+    "avgDifficulty": 2.9,
+    "avgRating": 5,
+    "courseCodes": [
+        {
+            "courseCount": 1,
+            "courseName": "EECS 280"
+        },
+        {
+            "courseCount": 53,
+            "courseName": "EECS280"
+        },
+        {
+            "courseCount": 3,
+            "courseName": "EECS281"
+        },
+        {
+            "courseCount": 12,
+            "courseName": "ENGR101"
+        }
+    ],
+    "department": "Computer Science",
+    "firstName": "James",
+    "lastName": "Juett",
+    "numRatings": 69,
+    "school": {
+        "id": "U2Nob29sLTEyNTg="
+    },
+    "wouldTakeAgainPercent": 100
+}

@@ -1,3 +1,6 @@
+# This file is mostly useless for us
+# Michigan school id is 1258
+
 import re
 import requests
 
@@ -18,7 +21,8 @@ class School:
     def _get_name(self):
         url = "https://www.ratemyprofessors.com/campusRatings.jsp?sid=%s" % self.id
         page = requests.get(url)
-        school_names = re.findall(r'"legacyId":%s,"name":"(.*?)"' % self.id, page.text)
+        school_names = re.findall(
+            r'"legacyId":%s,"name":"(.*?)"' % self.id, page.text)
         if school_names:
             school_name = str(school_names[0])
         else:

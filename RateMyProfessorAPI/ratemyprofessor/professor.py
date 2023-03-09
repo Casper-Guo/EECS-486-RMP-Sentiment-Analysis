@@ -6,8 +6,11 @@ import datetime
 from bs4 import BeautifulSoup
 
 from functools import total_ordering
-from .school import School
+from school import School
 
+# Both ratings_query and professors_query are tested
+# Only argument is prof ID
+# can use the JSON directly
 current_path = os.path.dirname(__file__)
 with open(os.path.join(current_path, "json/ratingsquery.json"), 'r') as f:
     ratings_query = json.load(f)
@@ -17,6 +20,8 @@ with open(os.path.join(current_path, "json/professorquery.json"), 'r') as f:
 
 with open(os.path.join(current_path, "json/header.json"), 'r') as f:
     headers = json.load(f)
+
+# Likely won't need to use any classes
 
 
 @total_ordering
@@ -34,23 +39,32 @@ class Professor:
         self._get_rating_info(professor_id)
 
     def _get_rating_info(self, professor_id: int):
+
+        # Emailed repo author to ask for endpoint documentation
         headers["Referer"] = "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=%s" % professor_id
+
+        # Unclear what the encode/decode achieves
         professor_query["variables"]["id"] = base64.b64encode(("Teacher-%s" % professor_id)
                                                               .encode('ascii')).decode('ascii')
-        data = requests.post(url="https://www.ratemyprofessors.com/graphql", json=professor_query, headers=headers)
+        data = requests.post(
+            url="https://www.ratemyprofessors.com/graphql", json=professor_query, headers=headers)
 
         if data is None or json.loads(data.text)["data"]["node"] is None:
-            raise ValueError("Professor not found with that id or bad request.")
+            raise ValueError(
+                "Professor not found with that id or bad request.")
 
+        # Process the data JSON and return that directly
         professor_data = json.loads(data.text)["data"]["node"]
         courses_data = professor_data["courseCodes"]
 
+        # We likely won't need the course abstraction
         self.courses = []
         for course_data in courses_data:
             self.courses.append(Course(professor=self, count=course_data["courseCount"],
                                        name=course_data["courseName"]))
 
-        self.name = professor_data["firstName"] + ' ' + professor_data["lastName"]
+        self.name = professor_data["firstName"] + \
+            ' ' + professor_data["lastName"]
         self.department = professor_data["department"]
         self.difficulty = professor_data["avgDifficulty"]
         self.rating = professor_data["avgRating"]
@@ -62,6 +76,8 @@ class Professor:
         self.school = School(int(base64.b64decode(
             professor_data["school"]["id"].encode('ascii')).decode('ascii')[7:]))
 
+        return professor_data
+
     def get_ratings(self, course_name=None):
         """
         Returns a list of strings that represent the courses that have ratings for that particular course name.
@@ -70,14 +86,14 @@ class Professor:
         Likewise, if there are no ratings for the course name, this will also return an empty list.
         If no course name is given, this method finds all the course names.
 
-
         :return: A list of the professor's courses for that course name.
         """
         if self.num_ratings == 0:
             return []
 
         headers["Referer"] = "https://www.ratemyprofessors.com/ShowRatings.jsp?tid=%s" % self.id
-        ratings_query["variables"]["id"] = base64.b64encode(("Teacher-%s" % self.id).encode('ascii')).decode('ascii')
+        ratings_query["variables"]["id"] = base64.b64encode(
+            ("Teacher-%s" % self.id).encode('ascii')).decode('ascii')
         ratings_query["variables"]["count"] = self.num_ratings
 
         if course_name is not None:
@@ -91,12 +107,15 @@ class Professor:
             else:
                 ratings_query["variables"]["courseFilter"] = course_name
 
-        data = requests.post(url="https://www.ratemyprofessors.com/graphql", json=ratings_query, headers=headers)
+        data = requests.post(
+            url="https://www.ratemyprofessors.com/graphql", json=ratings_query, headers=headers)
 
         if data is None or json.loads(data.text)["data"]["node"]["ratings"]["edges"] is None:
             return []
 
-        ratings_data = json.loads(data.text)["data"]["node"]["ratings"]["edges"]
+        # Similar, process the JSON and return that directly
+        ratings_data = json.loads(
+            data.text)["data"]["node"]["ratings"]["edges"]
         ratings = []
 
         for rating_data in ratings_data:
@@ -130,7 +149,8 @@ class Professor:
             else:
                 take_again = None
 
-            date = datetime.datetime.strptime(rating["date"][0:19], '%Y-%m-%d %H:%M:%S')
+            date = datetime.datetime.strptime(
+                rating["date"][0:19], '%Y-%m-%d %H:%M:%S')
 
             ratings.append(Rating(rating=rating["helpfulRating"], difficulty=rating["difficultyRating"],
                                   comment=rating["comment"], class_name=rating["class"], date=date,
@@ -138,7 +158,7 @@ class Professor:
                                   thumbs_down=rating["thumbsDownTotal"], online_class=online_class, credit=credit,
                                   attendance_mandatory=attendance_mandatory))
 
-        return ratings
+        return ratings_data
 
     def __repr__(self):
         return self.name

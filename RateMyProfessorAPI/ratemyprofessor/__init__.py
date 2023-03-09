@@ -7,6 +7,11 @@ An extremely basic web scraper for the RateMyProfessor website.
 :copyright: (c) 2021 Nobelz
 :license: Apache 2.0, see LICENSE for more details.
 """
+
+# The query format in get_professors_by_school_and_name may be useful
+# It GET a page by professor name (no fuzzy matching) and school id
+# We want to GET with prof ID only
+
 import requests
 import re
 import json
@@ -60,7 +65,7 @@ def get_schools_by_name(school_name: str):
             school_list.append(School(int(school_data)))
         except ValueError:
             pass
-    
+
     return school_list
 
 

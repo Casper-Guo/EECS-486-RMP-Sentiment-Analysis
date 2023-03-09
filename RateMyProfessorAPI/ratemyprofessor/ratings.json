@@ -1,0 +1,1175 @@
+[
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Great professor, clearly passionate about the subject.",
+            "date": "2022-12-25 21:56:00 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Amazing lectures --Inspirational--Respected",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Great prof, explains things very well. My only note is that we are usually behind the other classes in terms of lecture material so if that bothers you you may want to go to a different lecture.",
+            "date": "2022-10-06 13:11:26 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Literally the best professor you could have for a cs class. Explains everything so well and makes this tough class an enjoyable experience. 10000/10 would recommend",
+            "date": "2022-09-19 06:09:05 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Amazing lectures ",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "The class can be brutal at times but Juett is just awesome. The guy has passion for what he does and it shows, he's received awards for his teaching and is basically beloved by everyone in CS here. Hope he stays around for a long time. Great guy and great professor.",
+            "date": "2022-09-10 02:38:00 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "B",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Amazing lectures --Caring--Respected",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Juett was super helpful and made even the most boring topics interesting. i even got to interview him for another class, and he's just a great guy",
+            "date": "2022-04-12 01:14:40 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": true,
+            "ratingTags": "Clear grading criteria--Hilarious--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Such a wonderful professor. Always plays relaxing music while we work on practice problems during lecture and gives us breaks halfway through.",
+            "date": "2022-04-06 03:33:09 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Juett is the best CS professor I've ever had, and I regret not going to his lectures past Thanksgiving break because I was burnt out. He somehow makes boring C++ concepts pretty interesting and is pretty accessible. Go to his in-person proffice hours and just chill and chat with him, he's such a great guy and makes me love and be excited about CS.",
+            "date": "2021-12-23 00:53:51 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "B",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Respected--Inspirational--Amazing lectures",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Good lectures (there is a limit to how interesting talking about C++ const keyword can be). James is very helpful during office hours and just overall super chill. You can find him on both discord and Reddit and he does things like placing cat pictures on finals. A gem of the EECS department.",
+            "date": "2021-12-22 03:40:29 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--Respected--Accessible outside class",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "mandatory",
+            "class": "ENGR101",
+            "comment": "Dr. Juett is really a great professor. Lectures are helpful and clear on content, and he engages with students well. Going to class isn't a chore, and if I could take more classes with him I would. Definitely the best professor I've had a UM so far!",
+            "date": "2020-12-16 20:43:07 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--Clear grading criteria--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "",
+            "class": "ENGR101",
+            "comment": "Did not get to know him personally much since I took the class online. Nonetheless, I can tell that he is funny and clear through his short video clips. He was also the architect behind many of the online platforms the course used. He did a wonderful job at those, I learnt a great deal from this course and had a lot of fun.",
+            "date": "2020-12-08 16:51:41 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "A+",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": true,
+            "ratingTags": "Clear grading criteria",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "One of the best EECS professor at Michigan. Very chill guy, down-to-earth, great lectures, and is very willing to answer questions. I attribute learning so much in EECS 280 to him, and looking back after taking 281, he prepped me well for 281 and algorithm interviews.",
+            "date": "2020-07-24 22:00:49 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Juett is the goat. 10/10 would recomend to a friend. By far the best 280 prof.",
+            "date": "2020-04-06 22:23:58 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "A+",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Amazing lecturer, one of the best I've ever had. Clear and methodical teaching style and effortlessly facilitates class participation.",
+            "date": "2019-12-19 01:56:26 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "A+",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Clear grading criteria--Amazing lectures--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "One of the greatest profs I've ever met. I'll definitely miss him! Super hilarious from time to time---he doesn't realize that he is sooo funny! Although lecture attendance isn't mandatory, you just wanna go and see how he explains it clearly!",
+            "date": "2019-06-19 17:46:48 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "Not sure yet",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--Respected--Hilarious",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "James is a very good professor and explains the concepts well.",
+            "date": "2019-04-02 20:45:03 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Hilarious--Amazing lectures",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 2,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "ENGR101",
+            "comment": "Is a gem, hands out fruit for good boys",
+            "date": "2018-11-14 13:08:50 +0000 UTC",
+            "difficultyRating": 1,
+            "grade": "A+",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--Hilarious--Amazing lectures",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 2,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "One of the best teachers I've had at this school. Always chill, obviously knows what he's doing, and great at answering any questions. He didn't make jokes too often, but when he did, they were unexpectedly hilarious.",
+            "date": "2018-06-07 13:00:19 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A-",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "ACCESSIBLE OUTSIDE CLASS--Hilarious--Amazing lectures",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "ENGR101",
+            "comment": "Prof. Juett is a really great lecturer who really makes the subject matter very intuitive. He goes through a lot of examples in class and engages group work, both of which make the course concepts very easy to grasp. He's also very calm in nature and is ready to answer any question or acknowledge any comment.",
+            "date": "2018-05-02 12:59:56 +0000 UTC",
+            "difficultyRating": 1,
+            "grade": "Not sure yet",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Inspirational--Clear grading criteria--Amazing lectures",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "A great, calm, knowledgeable teacher. His extensive use of memes on EECS 280 slides makes is a nice addition to the great content he discusses. Professor Juett knows the answers to deep questions, which develops a strong respect for his academic expertise.",
+            "date": "2018-02-12 22:20:55 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--Respected",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "mandatory",
+            "class": "EECS280",
+            "comment": "Juett is great. Take 280 with him and you won't be disappointed. My only piece of advice is to take the projects seriously. Some will be easy, but a couple (Euchre being one of them) require time. Stay ahead of the curve by being 100% all the time. You'll have more time to study for the tests.",
+            "date": "2018-01-30 13:12:24 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A-",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Respected--Clear grading criteria--GROUP PROJECTS",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "James is a really nice guy and definitely cares about his students. Lectures are slightly boring but definitely would recommend him for any CS class.",
+            "date": "2018-01-01 12:22:07 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "B",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Respected--Caring",
+            "thumbsDownTotal": 1,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "There's nothing to say that hasn't been said - James Juett is an amazing teacher that cares oh so much about his students. You really couldn't ask for a better experience learning C++.",
+            "date": "2017-12-21 22:13:52 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Inspirational--Amazing lectures--Would take again",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Such a good professor but obviously not the easiest class. Very kind and caring about his subject",
+            "date": "2017-12-20 12:23:47 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Tough Grader--Respected--LOTS OF HOMEWORK",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "James is an amazing lecturer. He knows everything about this class like the back of his hand, and he is always eager to help out.",
+            "date": "2017-12-18 13:41:47 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--Respected--Amazing lectures",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Professor Juett is the best lecturer I have ever had. He deserves to be paid 2-3 times what he is now. His lectures were organized and prepared. They used well thought-out examples that were referenced across multiple lectures. I never felt like my time was being wasted. Also, Juett's demeanor was very polite, funny, and relaxed.",
+            "date": "2017-12-09 15:28:09 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Hilarious--Amazing lectures--Would take again",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 5,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Hands down one of the best professors here. A great lecturer, very intelligent guy, tries to keep material interesting, makes difficult material easy to understand. Also very friendly guy and easily approachable for questions. Lectures can be boring but what do you expect from a 90 minute computer science course",
+            "date": "2017-12-05 03:31:13 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A-",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--Respected--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Most helpful in office hours. Like seriously. Lectures are kind of boring but he's so nice to reward people fruit when you answer his questions.",
+            "date": "2017-11-28 21:02:41 +0000 UTC",
+            "difficultyRating": 5,
+            "grade": "B",
+            "helpfulRating": 4,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--ACCESSIBLE OUTSIDE CLASS--LECTURE HEAVY",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS281",
+            "comment": "Very amazing professor, super good. Happy to talk about everything in OH",
+            "date": "2017-11-21 12:50:02 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "",
+            "helpfulRating": 4,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Respected--ACCESSIBLE OUTSIDE CLASS--Amazing lectures",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "He's a great lecturer, always excited about the material and happy to answer questions. Cool and sometimes there are memes.",
+            "date": "2017-11-20 17:37:46 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Respected--Hilarious--GROUP PROJECTS",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS281",
+            "comment": "Very helpful!!!",
+            "date": "2017-06-22 11:23:13 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Respected--ACCESSIBLE OUTSIDE CLASS--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Great professor to start your coding experience. He's always approachable and you can see him trying to get to know his students. He's patient and explains clearly in office hours or when you ask him any question. Would love to take his classes again.",
+            "date": "2017-06-05 02:42:51 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "ACCESSIBLE OUTSIDE CLASS--Amazing lectures--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "",
+            "class": "EECS281",
+            "comment": "He is the best professor at umich.",
+            "date": "2017-05-09 11:52:53 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "B-",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "ENGR101",
+            "comment": "Juett is a solid choice for 101 (if you don't have him, watch his lectures online).  He goes over the material slowly and clearly and gives out fruit if you find typos in his slides.  Also gives you 5 minute breaks during lecture which are nice.",
+            "date": "2017-05-05 12:53:24 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A+",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "ACCESSIBLE OUTSIDE CLASS--Clear grading criteria--EXTRA CREDIT",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Gives helpful project hints in class and uses many examples to help explain new material. Lectures were clear and he is happy to answer any questions you have after class. Class itself isn't terrible but you will still have to put in a decent amount of time to do well.",
+            "date": "2017-04-30 16:20:17 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Hilarious--Amazing lectures--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "ENGR101",
+            "comment": "Thought the class was very easy so ended up skipping and watching at increased speed online. His lectures were generally good in explaining the material but boring, though that may be the fault of the material. Friendly.",
+            "date": "2017-04-29 23:28:27 +0000 UTC",
+            "difficultyRating": 1,
+            "grade": "A+",
+            "helpfulRating": 4,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "ENGR101",
+            "comment": "He explains the concepts very clearly. Downside is: he speaks a little quietly, and I would always sit near loud people. I was honestly touched by how enthusiastic the whole Engr101 staff is. They genuinely want you to succeed. Don't worry if you can't get him because all the lectures from each section are recorded online. GO TO OFFICE HOURS",
+            "date": "2017-04-26 15:42:00 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A+",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--ACCESSIBLE OUTSIDE CLASS--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "ENGR101",
+            "comment": "James is one of the best professors I've had! He explains things extremely well and puts all his effort into making sure you understand the material. I wish I enjoyed the class more because James really made me hate skipping class.",
+            "date": "2017-04-20 20:54:51 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A-",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "ACCESSIBLE OUTSIDE CLASS--Amazing lectures--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Amazing class. Even though it is a big lecture, he learns students names if they participate. Also gives away fruit if you find typos in his slides. Really worth it.",
+            "date": "2017-04-08 19:06:54 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A+",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--Respected--Amazing lectures",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "ENGR101",
+            "comment": "I really like Professor Juett. He gives off the vibe that he knows what he's talking about, and he makes lectures interesting.",
+            "date": "2017-02-10 18:36:06 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--Respected--ACCESSIBLE OUTSIDE CLASS",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "",
+            "class": "EECS280",
+            "comment": "He is SO nice and so approachable. In my experiences with EECS profs at U of M, they are typically condescending when it comes to coding questions. But james is seriously so nice and genuinely wants you to understand if you come to him with a question. GREAT GUY! Lectures are a bit dry, but what else can you expect from eecs280, not his fault.",
+            "date": "2016-12-18 22:01:50 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "B-",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Respected--ACCESSIBLE OUTSIDE CLASS--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Very good!",
+            "date": "2016-12-15 21:22:09 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Inspirational--Hilarious--Amazing lectures",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "ENGR101",
+            "comment": "James is a great professor who truly cares about the success of his students. He does a great job at explaining the course material in a way that is understandable to students of all coding backgrounds. He also gives free fruit if you caught his typos, which is definitely a plus.",
+            "date": "2016-12-13 11:34:11 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "Not sure yet",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Respected--Inspirational--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "ENGR101",
+            "comment": "Took his class for ENGR101 - one of the clearest lecturers you will have. Goes at a very steady pace, so if you know the material already, it might feel slow. His lectures were all recorded (alongside the appropriate slides too). Gave free fruit if you caught his typos. I honestly felt bad skipping (9am) because he was such a good professor.",
+            "date": "2016-12-12 14:56:34 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "ACCESSIBLE OUTSIDE CLASS--Clear grading criteria--Amazing lectures",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Professor Juett puts out a phenomenal lecture and really cares for his kids. Uses a lot of visual aids which is very helpful.",
+            "date": "2016-12-02 16:10:56 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Respected--Amazing lectures--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Great professor! He tries to make lectures enjoyable and engaging, makes an effort to understand and answer all questions, and he even learns the names of his students. On top of that, he explains everything very clearly and concisely and makes sure to pause if anyone has questions.",
+            "date": "2016-12-01 17:49:53 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "Not sure yet",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "ACCESSIBLE OUTSIDE CLASS--Amazing lectures",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "",
+            "class": "ENGR101",
+            "comment": "A little boring, especially at 9am, but a nice guy who wants you to succeed. It's an easy class so I wouldn't worry too much about it. Go to office hours for projects",
+            "date": "2016-11-14 12:39:08 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "",
+            "helpfulRating": 4,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "",
+            "class": "EECS280",
+            "comment": "James' office hours are the most helpful resource for EECS 280. All of his lectures are recorded and put online and they are interesting and extremely helpful. Would highly recommend this professor.",
+            "date": "2016-10-30 13:09:55 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Gives good feedback--Respected--ACCESSIBLE OUTSIDE CLASS",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Definitely recommend. Clear, useful, and interesting lectures.",
+            "date": "2016-10-08 15:03:08 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "Hilarious--Amazing lectures--Caring",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "The best professor I've had at Michigan. Explained complicated topics in the most clear way possible. Used tons of visuals, examples, and exercises. Went through everything in incredible detail. Lectures were engaging and interesting. He also took the time to learn every students' name in the class, and answered questions respectfully.",
+            "date": "2016-06-22 17:19:12 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "It's clear that James is very intelligent, and he makes learning the tough material quite interesting. I stopped going to my regular lectures to watch James' lecture recordings online because his explanations were MUCH clearer than my original professor. James is also super helpful when you go into his office hours... genuinely wants to help you",
+            "date": "2016-06-14 15:43:54 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "B",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 1,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "James was a fantastic instructor. He is extremely knowledgeable, but more importantly he teaches in a clear and empathetic fashion. He creates custom slides and is very accessible. His teaching style revolves around a strong commitment to his students. I took this course Spring Term and am glad he was teaching it.",
+            "date": "2016-06-12 15:32:56 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 1,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": 1
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "mandatory",
+            "class": "EECS280",
+            "comment": "Juett is amazing. I stopped attending the lecture I was assigned and just watched his because he is just 10x better. He explains every concept clearly, and writing out multiple examples on Labster also makes it easy to follow along. If you go to office hours, too, he makes a genuine effort to remember everyone's name.",
+            "date": "2016-05-15 20:54:19 +0000 UTC",
+            "difficultyRating": 5,
+            "grade": "B+",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "He's Grand",
+            "date": "2016-05-11 20:05:48 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 1,
+            "thumbsUpTotal": 4,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "I wasn't in Juett's section, but I started watching his lectures halfway through the semester and loved them. He's really helpful and interesting, and explains the material in an easy to understand way. I loved the class--it was fascinating and a lot of fun. I wish I could take it again!",
+            "date": "2016-04-27 17:52:18 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "James is happy to help every student. He always provides clear expectations and is very reasonable. He also made Labster and gives fruit to students who catch his typos. Need I say more..?",
+            "date": "2016-04-27 09:54:52 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "B",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Professor Juett makes programming interesting, and he really knows a lot about his field. He also makes an attempt to learn every student's name in his classes. I wish I had gone to office hours and lectures more often, as I feel like getting to know him would have been very beneficial to me as a CS student. Overall, great professor :)",
+            "date": "2016-04-25 16:06:58 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 1,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "",
+            "class": "EECS280",
+            "comment": "Fantastic professor, can convey information very well. Highly reccommend.",
+            "date": "2016-04-21 10:08:51 +0000 UTC",
+            "difficultyRating": 1,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 2,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Talks pretty slowly, but online lecture recording can be sped up so it's all good. Very knowledgeable.",
+            "date": "2016-04-18 14:27:48 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "B",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 2,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "",
+            "class": "EECS280",
+            "comment": "Great professor who explains things very well. Nice and very calm.  May come across as monotone to some,  but I found it almost absorbing. One of my favorite professors so far.",
+            "date": "2016-04-15 15:41:35 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Prof. Juett did an awesome job with his first semester as a lecturer.  His lectures were always well planned out.  He is soft spoken but hilarious!  Juett also uses Labster for examples in class unlike any of the other professors, which really helped clear up concepts.  Definitely recommend! (p.s. start projects early, do it)",
+            "date": "2016-01-07 00:05:37 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "B+",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "I loved James, he's a great teacher. I'm pretty sure this was his first semester teaching, but he was awesome. He keeps you entertained during lectures while providing good examples for you to learn. And he's extremely helpful during office hours; I always left pleased with how much he helped. Would definitely recommend",
+            "date": "2015-12-18 18:41:41 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "His first time teaching his own lecture section. Naturally I was wary and switched into another prof's lecture. After a day I switched back to Prof. Juett's. He is incredible. Very good at explaining concepts, infinitely helpful, also looks like he is 12. You can tell he is really smart and he cares about his students a lot. Definitely take him.",
+            "date": "2015-12-14 22:10:40 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "This dude is awesome!  I wish he'd teach all my classes.",
+            "date": "2015-11-21 19:29:56 +0000 UTC",
+            "difficultyRating": 1,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 2,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "This guy is amazing.  I wish I could take all of my EECS classes from him.  He's also super cute!",
+            "date": "2015-11-20 15:03:41 +0000 UTC",
+            "difficultyRating": 1,
+            "grade": "",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 1,
+            "thumbsUpTotal": 0,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "Awesome professor",
+            "date": "2015-11-18 04:37:36 +0000 UTC",
+            "difficultyRating": 4,
+            "grade": "A",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 2,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "If you have the opportunity to be in his lecture, DO IT. He's really helpful during office hours and is above all awesome. I'm so disappointed I won't be able to take another class with James aka bae.",
+            "date": "2015-11-18 04:35:35 +0000 UTC",
+            "difficultyRating": 3,
+            "grade": "A-",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 1,
+            "thumbsUpTotal": 1,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "This guy is amazing.  He is my idol.  I aspire to be him someday.",
+            "date": "2015-11-11 17:40:33 +0000 UTC",
+            "difficultyRating": 1,
+            "grade": "A+",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 5,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS280",
+            "comment": "I started going to Jame's lecture because I didn't like the one I was in. He's a really funny guy and makes sure people understand before moving on. 10/10 would recommend. ",
+            "date": "2015-11-10 10:03:12 +0000 UTC",
+            "difficultyRating": 1,
+            "grade": "A",
+            "helpfulRating": 4,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 1,
+            "thumbsUpTotal": 5,
+            "wouldTakeAgain": null
+        }
+    },
+    {
+        "node": {
+            "attendanceMandatory": "non mandatory",
+            "class": "EECS 280",
+            "comment": "James was a ton of help in office hours and gave lectures pretty well. I think this was his first semester teaching. I can see him being a really good professor in a few semesters! (He's also really funny)",
+            "date": "2015-10-24 14:43:27 +0000 UTC",
+            "difficultyRating": 2,
+            "grade": "Not sure yet",
+            "helpfulRating": 5,
+            "isForCredit": true,
+            "isForOnlineClass": false,
+            "ratingTags": "",
+            "thumbsDownTotal": 0,
+            "thumbsUpTotal": 6,
+            "wouldTakeAgain": null
+        }
+    }
+]
