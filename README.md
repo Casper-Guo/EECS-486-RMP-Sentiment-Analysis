@@ -1,5 +1,8 @@
 # EECS 486 RMP Webscrape
 
+## Acknowledgement
+[RateMyProfessorAPI](https://github.com/Nobelz/RateMyProfessorAPI) authored by NobelZ, ChrisBryann, Ozeitis.
+
 ## Steps
 
 - Get all Michigan prof IDs.
@@ -31,26 +34,30 @@
 
 ### professors.csv
 
-- profID (int) (not in JSON)
-- firstName (str)
-- lastName (str)
-- fullName (str) (not in JSON)
-- numRatings (int)
-- wouldTakeAgainPct (int)
-- avgDifficulty (float)
-- avgRating (float)
+| **Column Name**   | **Data Type** | **Note**                            |
+|-------------------|---------------|-------------------------------------|
+| profID            | int           | Not in JSON                         |
+| firstName         | str           |                                     |
+| lastName          | str           |                                     |
+| fullName          | str           | Parse from JSON first and last name |
+| department        | str           |                                     |
+| numRatings        | int           |                                     |
+| wouldTakeAgainPct | int           |                                     |
+| avgDifficulty     | float         |                                     |
+| avgRating         | float         |                                     |
 
 ### ratings.csv
 
-- profID (int) (not in JSON)
-- class (str)
-- comment (str)
-- attendanceMandatory (bool)
-- date (`pd.datetime`)
-- difficultyRating (float) (Older RMP allows .5 ratings)
-- grade (str)
-- helpfulRating (float)
-- isForCredit (bool)
-- ifForOnlineClass (bool)
-- ratingTags (str) (extra processing to convert to list)
-- wouldTakeAgain (bool) (represented in JSON as int)
+| **Column Name**     | **Data Type** | **Note**                                             |
+|---------------------|---------------|------------------------------------------------------|
+| profID              | int           | Not in JSON                                          |
+| class               | str           |                                                      |
+| attendanceMandatory | str           | {"non mandatory", "mandatory"}, convert to bool      |
+| date                | `pd.datetime` | Convert from string (UTC format)                     |
+| difficutyRating     | float         |                                                      |
+| grade               | str           |                                                      |
+| helpfulRating       | float         |                                                      |
+| isForCredit         | bool          |                                                      |
+| isForOnlineClass    | bool          |                                                      |
+| ratingTags          | list          | Given in JSON as "tag1--tag2--tag3", convert to list |
+| wouldTakeAgain      | bool          | Convert from int {0, 1}                              |
