@@ -27,7 +27,9 @@
   - GraphQL approach (emailed API repo author)
 
   - Manually click the button ~500 times (unironically might be the fastest way)
-
+  
+  - Keep making requests with https://www.ratemyprofessors.com/school?sid=[some number] and keep incrementing [some number] from 1 or something. Returns 8 professors ranked by teacher id (assigned upon professor profile creation), and then request more info about that professor with https://www.ratemyprofessors.com/professor?tid=[teacher id]
+  
   - ?
 
 ## Proposed CSV schema based on JSON
