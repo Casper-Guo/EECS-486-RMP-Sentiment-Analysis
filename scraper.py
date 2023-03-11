@@ -16,11 +16,10 @@ profxpath = '//*[@id="root"]/div/div/div[4]/div[1]/div[1]/div[3]/a[16]/div/div[2
 count = 1
 while True:
     try:
-        WebDriverWait(driver, 100).until(EC.visibility_of_element_located((By.XPATH, xpath))).click()
+        WebDriverWait(driver, 180).until(EC.visibility_of_element_located((By.XPATH, xpath))).click()
 #        loadmore = driver.find_element("xpath", xpath)
-        time.sleep(5)
-        print("button clicked")
-        print(count)
+        time.sleep(1)
+        print("button clicked " + str(count))
         count += 1
     except Exception as e:
         print(e)
