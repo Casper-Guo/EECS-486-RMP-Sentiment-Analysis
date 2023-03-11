@@ -15,6 +15,7 @@ import requests
 import json
 import base64
 import sys
+import time
 import pandas as pd
 from pathlib import Path
 
@@ -149,12 +150,18 @@ def main():
         IDs = f.readlines()
         IDs = [int(id.strip()) for id in IDs]
 
-    for ID in IDs:
-        prof_info = get_prof_info(ID)
-        num_ratings = prof_info.get("numRatings")
-        prof_ratings = get_ratings(ID, num_ratings)
-        profs_info.append(prof_info)
-        ratings.extend(prof_ratings)
+    for count, ID in enumerate(IDs):
+        try:
+            prof_info = get_prof_info(ID)
+
+            num_ratings = prof_info.get("numRatings")
+            print(count, prof_info.get("lastName"))
+
+            prof_ratings = get_ratings(ID, num_ratings)
+            profs_info.append(prof_info)
+            ratings.extend(prof_ratings)
+        except:
+            continue
 
     df_info = pd.DataFrame(profs_info)
     df_ratings = pd.DataFrame(ratings)

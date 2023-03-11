@@ -2,6 +2,7 @@
 Various project utilities.
 """
 
+import pandas as pd
 from bs4 import BeautifulSoup as bs
 
 
@@ -27,13 +28,23 @@ def get_profID(html: str) -> list:
     return IDs
 
 
-def main():
-    with open("html.txt", 'r') as f:
-        html = f.read()
+def find_diff(received_IDs: list, all_IDs: list) -> list:
+    return set(all_IDs) - set(received_IDs)
 
-    # with open("profID.txt", 'w+') as f:
-    #     for profID in get_profID(html):
-    #         f.write(profID + "\n")
+
+def main():
+    with open("profID.txt", "r") as f:
+        all_IDs = f.readlines()
+        all_IDs = [int(id.strip()) for id in all_IDs]
+
+    df_prof = pd.read_csv("Data/raw_prof_info.csv")
+    received_IDs = df_prof["profID"].to_list()
+
+    diff = find_diff(received_IDs, all_IDs)
+
+    with open("diff.txt", "w") as f:
+        for id in diff:
+            f.write(str(id) + "\n")
 
     return 0
 
