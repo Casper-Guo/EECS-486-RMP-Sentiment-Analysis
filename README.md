@@ -4,6 +4,9 @@
 
 [RateMyProfessorAPI](https://github.com/Nobelz/RateMyProfessorAPI) authored by NobelZ, ChrisBryann, Ozeitis.
 
+## Report Overleaf
+[Report Link here!](https://www.overleaf.com/project/640e93e156f1ffc9a9381c8f)
+
 ## Steps
 
 - Get all Michigan prof IDs.
