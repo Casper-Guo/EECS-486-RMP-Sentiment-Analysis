@@ -1,0 +1,9 @@
+beautifulsoup4
+pandas<2.0.0
+matplotlib
+seaborn
+selenium
+numpy
+nltk
+scikit-learn
+gensim
