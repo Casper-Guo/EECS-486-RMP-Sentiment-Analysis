@@ -1,77 +1,118 @@
 # EECS 486 RMP Webscrape
 
-## Acknowledgement
+Using all reviews given to University of Michigan professors on [ratemyprofessors.com](ratemyprofessors.com) (RMP) as the corpus, we benchmark the performance of different text-encoding methodologies and machine learning models.
 
-[RateMyProfessorAPI](https://github.com/Nobelz/RateMyProfessorAPI) authored by NobelZ, ChrisBryann, Ozeitis.
+## Installation
+You should have a Jupyter development set up, preferably using Python 3.11 kernel.
 
-## Report Overleaf
-[Report Link here!](https://www.overleaf.com/project/640e93e156f1ffc9a9381c8f)
+Then, `pip install -r requirements.txt`
 
-## Steps
+## Directory Structure
+```
+.
 
-- Get all Michigan prof IDs.
-- [RMPAPI](https://github.com/Nobelz/RateMyProfessorAPI) provides ready to go GraphQL queries to get summary statistics and all ratings/comments. We will need to rewrite/customize most of the code.
-- Use Pandas to clean and convert to CSVs.
+├── Data
+│   ├── clean_prof_info.csv
+│   ├── clean_ratings.csv
+│   ├── data_cleaning.ipynb
+│   ├── glove.6B.100d.txt
+│   ├── glove.6B.100d.txt.word2vec
+│   ├── raw_prof_info.csv
+│   └── raw_ratings.csv
+├── README.md
+├── RateMyProfessorAPI
+│   ├── LICENSE
+│   ├── MANIFEST.in
+│   ├── README.md
+│   ├── examples
+│   │   └── example.py
+│   ├── ratemyprofessor
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-38.pyc
+│   │   │   ├── professor.cpython-38.pyc
+│   │   │   └── school.cpython-38.pyc
+│   │   ├── json
+│   │   │   ├── header.json
+│   │   │   ├── professorquery.json
+│   │   │   └── ratingsquery.json
+│   │   ├── professor.py
+│   │   ├── ratings.json
+│   │   ├── ratings_info.json
+│   │   ├── sample.py
+│   │   └── school.py
+│   ├── requirements.txt
+│   ├── setup.cfg
+│   ├── setup.py
+│   └── tests
+│       └── test.py
+├── data_acquisition.py
+├── experiment.ipynb
+├── html
+│   ├── diff.txt
+│   ├── html.txt
+│   └── profID.txt
+├── pipeline.ipynb
+├── requirements.txt
+├── scraper.py
+└── util.py
+```
 
-## RMPAPI Details
+## File Overview
+### `Data/`
+- Raw and cleaned datasets, dataset schema is provided below.
+- `data_cleaning.ipynb`: Processing procedures to clean raw data.
+- `glove.6B.100d.txt`: Download available at the [GloVe website](https://nlp.stanford.edu/projects/glove/). We used the 6B tokens dataset with 100-dimension vectors.
 
-- See comments in files for parts that can be reused.
-- See `ratings_info.json` and `ratings.json` for sample JSON responses.
-- No `pyproject.toml` or similar so cannot import locally.
-- The queries can be ported. Rewrite to store data as dicts / JSON rather than class objects for easier Pandas convertion. ([`pd.Dataframe()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) can read a list of dicts or eq. JSON directly)
+### `RateMyProfessorAPI`/
+Lightly edited fork of [RateMyProfessorAPI](https://github.com/Nobelz/RateMyProfessorAPI), see [acknowledgement](#Acknowledgement).
 
-## Todo
+### `html`/
+Webscrapping artifacts.
 
-- Investigate getting all professor IDs under the same school ID (Michigan: 1258)
+### `./`
+- `data_acquisiton.py`: Given a list of profIDs, use RMPAPI to retrieve relevant information in JSON format.
+- `experiment.ipynb`: Benchmarking with different encodings and machine learning models.
+- `scraper.py`: Selenium program to retrieve UMich profIDs.
+- `util.py`: Project utilities.
 
-  Possible Approaches:
+## Cleaned Dataset Schema
 
-  - Go to Michigan's school page, click on All Professors, use a Selenium script to load all avaiable professors, then scrape
-
-  - GraphQL approach (emailed API repo author)
-
-  - Manually click the button ~500 times (unironically might be the fastest way)
-
-  - Keep making requests with https://www.ratemyprofessors.com/school?sid=[some_number] and keep incrementing [some_number] from 1 or something. Returns 8 professors ranked by teacher id (assigned upon professor profile creation), and then request more info about that professor with https://www.ratemyprofessors.com/professor?tid=[teacher_id]
-
-  - ?
-
-## Proposed CSV schema based on JSON
-
-### professors.csv
+### `clean_prof_info.csv`
 
 | **Column Name**   | **Data Type** | **Note**                            |
 | ----------------- | ------------- | ----------------------------------- |
-| profID            | int           | Not in JSON                         |
+| profID            | int           |                                     |
 | firstName         | str           |                                     |
 | lastName          | str           |                                     |
-| fullName          | str           | Parse from JSON first and last name |
-| department        | str           |                                     |
+| fullName          | str           | Concatenate first and last name     |
+| department        | str           | Known defects, not reliable         |
 | numRatings        | int           |                                     |
-| wouldTakeAgainPct | float         |                                     |
-| avgDifficulty     | float         |                                     |
-| avgRating         | float         |                                     |
+| wouldTakeAgainPct | float         | Ranges from 0 to 100, has Na        |
+| avgDifficulty     | float         | Ranges from 1 to 5                  |
+| avgRating         | float         | Ranges from 1 to 5                  |
 
-### ratings.csv
+### `clean_ratings.csv`
 
 | **Column Name**     | **Data Type** | **Note**                                             |
 | ------------------- | ------------- | ---------------------------------------------------- |
-| profID              | int           | Not in JSON                                          |
+| profID              | int           |                                                      |
 | class               | str           |                                                      |
-| attendanceMandatory | bool          | {"non mandatory", "mandatory"}, convert to bool      |
-| comment             | str           | NAs dropped                                          |
-| date                | `pd.datetime` | Convert from string (UTC format)                     |
-| difficutyRating     | float         |                                                      |
-| grade               | str           |                                                      |
-| helpfulRating       | float         |                                                      |
+| attendanceMandatory | bool          |                                                      |
+| comment             | str           |                                                      |
+| date                | `pd.datetime` | UTC format, accurate to second                       |
+| difficutyRating     | float         | Range from 1 to 5                                    |
+| grade               | str           | Letter grades, with +/-                              |
+| helpfulRating       | float         | Range from 1 to 5                                    |
 | isForCredit         | bool          |                                                      |
 | isForOnlineClass    | bool          |                                                      |
-| ratingTags          | list          | Given in JSON as "tag1--tag2--tag3", convert to list |
-| wouldTakeAgain      | bool          | Convert from int {0, 1}                              |
+| ratingTags          | list          | List of up to 3 tags                                 |
+| wouldTakeAgain      | bool          |                                                      |
 
-## Related Work
+Earlier comments may have `difficultyRating` and `helpfulRating` at 0.5 increments.
 
-- For quick overview: https://medium.com/@vasista/sentiment-analysis-using-svm-338d418e3ff1
-- [Sentiment analysis using support vector machines with diverse information
-  sources](https://aclanthology.org/W04-3253.pdf)
-- To justify which type of SVM? [Multi-category news classification using Support Vector Machine based classifiers](https://link.springer.com/article/10.1007/s42452-020-2266-6)
+At some point, the site began to only allow integer ratings.
+
+## Acknowledgement
+
+[RateMyProfessorAPI](https://github.com/Nobelz/RateMyProfessorAPI) authored by NobelZ, ChrisBryann, Ozeitis. Apache-2.0 license.
