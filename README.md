@@ -10,7 +10,6 @@ Then, `pip install -r requirements.txt`
 ## Directory Structure
 ```
 .
-
 ├── Data
 │   ├── clean_prof_info.csv
 │   ├── clean_ratings.csv
@@ -19,6 +18,27 @@ Then, `pip install -r requirements.txt`
 │   ├── glove.6B.100d.txt.word2vec
 │   ├── raw_prof_info.csv
 │   └── raw_ratings.csv
+├── GUI.ipynb
+├── Models
+│   ├── Encodings
+│   │   ├── test_count.npz
+│   │   ├── test_tfidf.npz
+│   │   ├── test_word2vec.npz
+│   │   ├── train_count.npz
+│   │   ├── train_tfidf.npz
+│   │   └── train_word2vec.npz
+│   ├── log_reg_count.joblib
+│   ├── log_reg_tfidf.joblib
+│   ├── log_reg_word2vec.joblib
+│   ├── rf_count.joblib
+│   ├── rf_tfidf.joblib
+│   ├── rf_word2vec.joblib
+│   ├── svm_count.joblib
+│   ├── svm_tfidf.joblib
+│   ├── svm_word2vec.joblib
+│   ├── xgb_count.joblib
+│   ├── xgb_tfidf.joblib
+│   └── xgb_word2vec.joblib
 ├── README.md
 ├── RateMyProfessorAPI
 │   ├── LICENSE
@@ -55,10 +75,15 @@ Then, `pip install -r requirements.txt`
 ├── pipeline.ipynb
 ├── requirements.txt
 ├── scraper.py
+├── submission.zip
 └── util.py
 ```
 
 ## File Overview
+
+### `Model/`
+Pickled predictor objects.
+
 ### `Data/`
 - Raw and cleaned datasets, dataset schema is provided below.
 - `data_cleaning.ipynb`: Processing procedures to clean raw data.
@@ -71,6 +96,7 @@ Lightly edited fork of [RateMyProfessorAPI](https://github.com/Nobelz/RateMyProf
 Webscrapping artifacts.
 
 ### `./`
+- `GUI.ipynb`: Implements a interactive demo GUI where users can enter text and see the model predictions.
 - `data_acquisiton.py`: Given a list of profIDs, use RMPAPI to retrieve relevant information in JSON format.
 - `experiment.ipynb`: Benchmarking with different encodings and machine learning models.
 - `scraper.py`: Selenium program to retrieve UMich profIDs.

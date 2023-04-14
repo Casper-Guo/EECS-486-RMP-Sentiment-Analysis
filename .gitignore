@@ -1,11 +1,13 @@
 # Word embedding file
 Data/glove.6B.100d.*
 
-# Pickles
-Models/
-
 # Archives
 *.zip
+
+# Pickle Objects
+Models/Encodings/
+Models/*word2vec.joblib
+Models/*count.joblib
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
