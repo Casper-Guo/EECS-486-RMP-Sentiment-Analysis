@@ -5,9 +5,7 @@ Data/glove.6B.100d.*
 *.zip
 
 # Pickle Objects
-Models/Encodings/
-Models/*word2vec.joblib
-Models/*count.joblib
+Models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
