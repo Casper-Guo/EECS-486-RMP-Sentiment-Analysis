@@ -1,6 +1,9 @@
 # Word embedding file
 Data/glove.6B.100d.*
 
+# Pickles
+Models/
+
 # Archives
 *.zip
 
